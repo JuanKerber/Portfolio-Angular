@@ -33,8 +33,6 @@
   --dl-space-space-fourunits: 64px;
   --dl-space-space-threeunits: 48px;
   --dl-space-space-oneandhalfunits: 24px;
-  --main-font-color: #b8b8b8;
-  --my-portrait: url('assets/photo_cv-1400w.png');
 }
 .button {
   color: #ffffff;
@@ -201,49 +199,6 @@
   line-height: 1.15;
   text-transform: none;
   text-decoration: none;
-}
-@font-face {
-  font-family: 'Glitch';
-  src: url('assets/fonts/glitch-goblin-font/GlitchGoblin-2O87v.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Textfont';
-  src: url('assets/fonts/Arame/ArameThin/ArameThin.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-@media(max-width: 991px) {
-  .banner {
-    flex-direction: column;
-  }
-  .swiper-pagination-bullet {
-    opacity: 0.5;
-    background-color: #ffffff;
-  }
-  .objective {
-    flex: 1;
-  }
-  .accordion {
-    gap: var(--dl-space-space-unit);
-    padding-top: var(--dl-space-space-unit);
-    padding-bottom: var(--dl-space-space-unit);
-  }
-  .accordion-content {
-    font-size: 14px;
-    line-height: 21px;
-  }
-}
-@media(max-width: 767px) {
-  .objective {
-    gap: var(--dl-space-space-unit);
-    max-width: 100%;
-  }
-  .value {
-    padding-top: 0px;
-    padding-bottom: var(--dl-space-space-unit);
-  }
 }
 @media(max-width: 479px) {
   .button {
